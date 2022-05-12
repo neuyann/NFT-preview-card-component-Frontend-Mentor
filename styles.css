@@ -1,42 +1,112 @@
 
 body{
-    background-color: hsl(212, 45%, 89%);
-    text-align: center;
-  }
-  
-  img{
-    height: auto;
-    width: 240px;
-    border-radius: 10px;
-    margin: 12px 12px 12px 12px;
-  }
-  
-  .container {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 270px;
-    height: 420px;
-    background-color: white;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 0px 5px 5px -5px hsl(220, 15%, 55%);
-  }
-  
-  #firstp{
-    font-family: Outfit, sans-serif;
-    font-size: 18px;
-    margin: 0 23px 0 23px;
-    font-weight: 700;
-    color: hsl(218, 44%, 22%);
-  }
-  
-  #secondp{
-    font-size: 13px;
-    font-family: Outfit;
-    margin: 15px 28px 15px 28px;
-    color: hsl(220, 15%, 55%);
-  }
+  background: hsl(217, 54%, 11%)
+}
+#img1{
+  height: auto;
+  width: 230px;
+  border-radius: 8px;
+  margin: 15px 15px 5px 15px;
+}
+.cardBG{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 260px;
+  height: 450px;
+  background: hsl(216, 50%, 16%);
+  border-radius: 12px;
+  font-family: Outfit;
+}
+
+h1{
+  font-size: 16px;
+  color: hsl(0, 0%, 100%);
+  margin-left: 15px;
+}
+
+#content{
+  color: hsl(215, 51%, 70%);
+  margin-left: 15px;
+  margin-top: 5px;
+  margin: 5px 0 10px 15px;
+  font-size: 14px;
+}
+.content2{
+  margin: 0 15px 5px 15px;
+  border-bottom: solid 1px hsl(215, 32%, 27%);
+}
+#img2{
+  height: 4%;
+  width: 4%;
+  margin: 1px 2px 0px 1px;
+}
+
+#img3{
+  margin-top: 12px;
+  margin-right: 4px;
+  height: 6%;
+  width: 6%;
+}
+#line,#line2,#img2{
+  display:inline-block;
+  font-size: 12px;
+}
+
+#line{
+  color: hsl(178, 100%, 50%);
+}
+
+#line2,#img3{
+  display:float;
+  float:right;
+  color: hsl(215, 51%, 70%);
+}
+
+#avatarPic{
+  height: 22px;
+  width: 22px;
+  border: solid 1px white;
+  border-radius: 20px;
+  margin: 10px 0 5px 15px;
+}
+
+#creationOf{
+  color: hsl(215, 51%, 70%);
+  font-size: 12px;
+}
+
+#jules{
+  color: hsl(0, 0%, 100%);
+  font-size: 12px;
+}
+#creationOf,#jules{
+  position:relative;
+  top: -12px;
+}
+#img2{
+  position:relative;
+  top: 3px;
+}
+
+
+#creationOf,#jules{
+  margin-left: 5px;
+  margin-top: 0px;
+}
+.footer,#footer{
+  display: inline-block;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media (min-width:600px) {
+    body {
+        font-size: 18px;
+    }
