@@ -2,9 +2,7 @@
 body{
   background: hsl(217, 54%, 11%)
 }
-#img1:active{
-  color:hsl(178, 100%, 50%);
-}
+
 #img1{
   height: auto;
   width: 230px;
@@ -121,6 +119,7 @@ h1:active{
 #img1,#jules,h1{
   cursor: pointer;
 }
+/* header */
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
